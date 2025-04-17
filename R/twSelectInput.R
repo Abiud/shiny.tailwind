@@ -117,9 +117,9 @@ twSelectInput <- function(
 
   # CSS classes and width
   container_class <- paste(
-    "block twSelectInput form-group shiny-input-container",
+    "block twSelectInput form-group",
     container_class
-  ) # Added shiny-input-container
+  )
   label_class <- paste("control-label", label_class)
   select_class <- paste("block form-control", select_class) # form-control might be bootstrap-specific, adjust if needed
   width <- shiny::validateCssUnit(width)
